@@ -24,9 +24,10 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'LWP::UserAgent' => '0',
     'Moose' => '1.0',
-    'URI' => '0'
+    'URI' => '0',
+    'namespace::clean' => '0.20'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }

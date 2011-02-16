@@ -1,6 +1,6 @@
 package PowerDNS::API::Client::Request;
 BEGIN {
-  $PowerDNS::API::Client::Request::VERSION = '0.01';
+  $PowerDNS::API::Client::Request::VERSION = '0.02';
 }
 use Moose;
 use URI ();

@@ -23,7 +23,8 @@
          "requires" : {
             "LWP::UserAgent" : 0,
             "Moose" : "1.0",
-            "URI" : 0
+            "URI" : 0,
+            "namespace::clean" : "0.20"
          }
       },
       "test" : {
@@ -42,6 +43,6 @@
          "url" : "http://github.com/devel/PowerDNS-API-Client"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

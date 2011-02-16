@@ -17,8 +17,9 @@ requires:
   LWP::UserAgent: 0
   Moose: 1.0
   URI: 0
+  namespace::clean: 0.20
 resources:
   bugtracker: http://github.com/abh/PowerDNS-API-Client/issues
   homepage: http://search.cpan.org/dist/PowerDNS-API-Client/
   repository: http://github.com/devel/PowerDNS-API-Client
-version: 0.01
+version: 0.02
