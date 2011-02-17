@@ -22,4 +22,4 @@ resources:
   bugtracker: http://github.com/abh/PowerDNS-API-Client/issues
   homepage: http://search.cpan.org/dist/PowerDNS-API-Client/
   repository: http://github.com/devel/PowerDNS-API-Client
-version: 0.02
+version: 0.03

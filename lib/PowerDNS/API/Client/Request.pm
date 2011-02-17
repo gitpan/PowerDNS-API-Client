@@ -1,6 +1,6 @@
 package PowerDNS::API::Client::Request;
 BEGIN {
-  $PowerDNS::API::Client::Request::VERSION = '0.02';
+  $PowerDNS::API::Client::Request::VERSION = '0.03';
 }
 use Moose;
 use URI ();
@@ -40,9 +40,6 @@ sub _query {
     #$args{api_ts} = time;
     #$args{api_sig} =
     #  hmac_sha256_hex(_get_parameter_string(\%args), $api_secret);
-
-    use Data::Dump qw(pp);
-    pp(\%args);
 
     my $uri = URI->new();
     $uri->query_form(%args);
