@@ -1,6 +1,6 @@
 package PowerDNS::API::Client::Response;
 BEGIN {
-  $PowerDNS::API::Client::Response::VERSION = '0.03';
+  $PowerDNS::API::Client::Response::VERSION = '0.10';
 }
 use Moose;
 use JSON qw(decode_json);

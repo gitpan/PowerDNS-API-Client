@@ -21,6 +21,8 @@
       },
       "runtime" : {
          "requires" : {
+            "HTTP::Request" : 0,
+            "JSON" : "2.0",
             "LWP::UserAgent" : 0,
             "Moose" : "1.0",
             "URI" : 0,
@@ -43,6 +45,6 @@
          "url" : "http://github.com/devel/PowerDNS-API-Client"
       }
    },
-   "version" : "0.03"
+   "version" : "0.10"
 }
 

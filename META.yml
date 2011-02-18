@@ -14,6 +14,8 @@ meta-spec:
   version: 1.4
 name: PowerDNS-API-Client
 requires:
+  HTTP::Request: 0
+  JSON: 2.0
   LWP::UserAgent: 0
   Moose: 1.0
   URI: 0
@@ -22,4 +24,4 @@ resources:
   bugtracker: http://github.com/abh/PowerDNS-API-Client/issues
   homepage: http://search.cpan.org/dist/PowerDNS-API-Client/
   repository: http://github.com/devel/PowerDNS-API-Client
-version: 0.03
+version: 0.10

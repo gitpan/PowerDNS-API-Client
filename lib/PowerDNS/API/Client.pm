@@ -1,6 +1,6 @@
 package PowerDNS::API::Client;
 BEGIN {
-  $PowerDNS::API::Client::VERSION = '0.03';
+  $PowerDNS::API::Client::VERSION = '0.10';
 }
 use strict;
 use warnings;

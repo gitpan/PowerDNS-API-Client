@@ -22,12 +22,14 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'PowerDNS::API::Client',
   'PREREQ_PM' => {
+    'HTTP::Request' => '0',
+    'JSON' => '2.0',
     'LWP::UserAgent' => '0',
     'Moose' => '1.0',
     'URI' => '0',
     'namespace::clean' => '0.20'
   },
-  'VERSION' => '0.03',
+  'VERSION' => '0.10',
   'test' => {
     'TESTS' => 't/*.t'
   }
